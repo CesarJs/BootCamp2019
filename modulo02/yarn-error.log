@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js add express
+
+PATH: 
+  /Users/cesar.lima/Library/Android/sdk/platform-tools:/Users/cesar.lima/Library/Android/sdk/tools:/Users/cesar.lima/Library/Android/sdk/build-tools/29.0.2:/Users/cesar.lima/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/cesar.lima/Library/Android/sdk/platform-tools:/Users/cesar.lima/Library/Android/sdk/tools:/Users/cesar.lima/Library/Android/sdk/build-tools/29.0.2:/Users/cesar.lima/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/express: tunneling socket could not be established, statusCode=503
+      at ClientRequest.onConnect (/usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:152039:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at Socket.socketOnData (_http_client.js:475:11)
+      at Socket.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+      at readableAddChunk (_stream_readable.js:269:11)
+      at Socket.Readable.push (_stream_readable.js:224:10)
+      at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+
+npm manifest: 
+  {
+    "name": "modulo02",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

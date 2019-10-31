@@ -1,0 +1,8 @@
+{
+  "name": "BootCamp2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CesarJs/BootCamp2019.git",
+  "author": "cesar.lima <cesar.lima@etapa.com.br>",
+  "license": "MIT"
+}
