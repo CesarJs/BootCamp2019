@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/CesarJs/BootCamp2019.git",
   "author": "cesar.lima <cesar.lima@etapa.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^6.7.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1"
+  }
 }
